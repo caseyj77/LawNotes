@@ -1,6 +1,7 @@
 <!-- src/views/CaseBriefsView.vue -->
 <script setup>
 import AppLayout from '@/components/layout/AppLayout.vue'
+import CaseBriefForm from '@/components/briefs/CaseBriefForm.vue'
 </script>
 
 <template>
@@ -18,7 +19,7 @@ import AppLayout from '@/components/layout/AppLayout.vue'
         </div>
 
         <div class="brief-form-placeholder">
-          [ Case Brief Form Goes Here ]
+          <CaseBriefForm />
         </div>
       </div>
     </div>
