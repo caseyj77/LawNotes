@@ -1,0 +1,18 @@
+:root {
+  --color-deep-brown: #3E362E;
+  --color-warm-oak: #865D36;
+  --color-taupe: #93785B;
+  --color-desert-clay: #AC8968;
+  --color-dusty-beige: #A69080;
+
+  --color-bg: var(--color-dusty-beige);
+  --color-text: var(--color-deep-brown);
+  --color-accent: var(--color-warm-oak);
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
